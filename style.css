@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: 'Roboto Slab', sans-serif;
+    background-image: url(img/fon.png);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.nav-b{
+    font-size: 30px;
+}
+
+.img-container{
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.imgclub{
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.championship{
+    font-size: 30px;
+}
+
+.styletable{
+    margin: 0 20%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.tables{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.tables th{
+    padding: 5px;
+}
+
+.tables td{
+    padding: 5px;
+    border-top: 1px solid #ccc;
+}
+
+.left{
+    text-align: left;
+}
+
+.tables tr{
+    transition: all .3s;
+}
+
+.tables tr:hover{
+    background-color: #ccc;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
