@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Football tables</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body class="body_login">
+    <header>
+        <div class="header">
+            <div class="nav">
+                <div class="nav-item nav-b"><b>Football tables</b></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="form_feedback">
+            <form class="form_2" name="test" enctype="multipart/form-data" method="post">
+                <div class="form_group">
+                    <input class="form_input" type = "text" name="fio" placeholder=" " >
+                    <label class="form_label">ФИО</label>
+                </div>
+                <div class="form_group">
+                    <input class="form_input" type="email" name="email" placeholder=" ">
+                    <label class="form_label">Email</label>
+                </div>
+                <div class="form_div">
+                    <p class="form_radio padding"><input type="radio" name="answer" value="От друга">От друга</p>
+                    <p class="form_radio"><input type="radio" name="answer" value="Из интернета">Из интернета</p>
+                </div>
+                <div class="form_div">
+                    <select class="form_select">
+                        <option disabled>Тип обращения</option>
+                        <option selected value="Жалоба">Жалоба</option>
+                        <option selected value="Предложение">Предложение</option>
+                    </select>
+                </div>
+                <p class="form_div"><textarea rows="10" cols="45" name="text"></textarea></p>
+                <p class="form_div"><input class="form_file" type="file" name="f"></p>
+                <p class="form_checkbox"><input class="checkbox" type="checkbox" name="check" value="Даю согласие на обработку персональных данных">Даю согласие на обработку персональных данных</p>
+                <p class="form_div"><input class="form_button" type="submit" value="Отправить"></p>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            <p>(С) 2022 А.Н.Силаев</p>
+            <p>+79213219351</p>
+        </div>
+    </footer>
+</body>
+</html>
